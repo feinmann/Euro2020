@@ -11,6 +11,7 @@ The optimization assumes the following rules on kicktipp.de
 
 * cd into repository root
 * start `julia --project=.`
+* `julia> ] instantiate` # installs required packages
 * `julia> using Pluto`
 * `julia> Pluto.run()`
 * In the new browser window, open the `Simulation.jl` notebook
